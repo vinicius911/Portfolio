@@ -1,0 +1,60 @@
+.container {
+  position: relative;
+
+  .photo {
+    top: 0;
+    left: 0;
+    margin-left: 40px;
+    transform: translateY(-50%);
+    position: absolute;
+  }
+
+  .cardContent {
+    padding: 100px 35px 35px 40px;
+    .textsWrapper {
+      .textAbout {
+        max-width: 350px;
+        width: 100%;
+        margin-top: 10px;
+      }
+    }
+
+    .contactWrapper {
+      display: grid;
+      gap: 5px;
+      margin: 40px 0;
+      a {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+      }
+    }
+
+    .linksWrapper {
+      display: flex;
+      gap: 15px;
+      .iconButtonRoot {
+        background-color: #212121;
+        border-radius: 10px;
+        width: 70px;
+      }
+      :hover {
+        svg {
+          transition: all 0.1s ease-out;
+          transform: scale(1.1);
+        }
+      }
+    }
+  }
+  @media screen and (max-width: 550px) {
+    .cardContent {
+      padding: 100px 35px 25px 20px;
+      .linksWrapper {
+        gap: 10px;
+        .iconButtonRoot {
+          width: 50px;
+        }
+      }
+    }
+  }
+}

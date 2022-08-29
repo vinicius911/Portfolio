@@ -1,0 +1,68 @@
+.container {
+  flex: 1;
+  .content {
+    padding: 20px 30px 10px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    .header {
+      display: flex;
+      justify-content: space-between;
+      border-bottom: 1px solid #4b4b4b;
+      padding-bottom: 15px;
+      margin-bottom: 20px;
+      align-items: center;
+    }
+
+    .projectsWrapper {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      height: 89px;
+      overflow: auto;
+    }
+    ::-webkit-scrollbar {
+      width: 8px;
+      height: 8px;
+    }
+    ::-webkit-scrollbar-button {
+      width: 0px;
+      height: 0px;
+    }
+    ::-webkit-scrollbar-thumb {
+      background: #5cff9b;
+      border: 0px none #ffffff;
+      border-radius: 50px;
+    }
+    ::-webkit-scrollbar-thumb:hover {
+      background: #ffffff;
+    }
+    ::-webkit-scrollbar-thumb:active {
+      background: #ffffff;
+    }
+    ::-webkit-scrollbar-track {
+      background: #0f0f0f;
+      border: 0px none #0f0f0f;
+      border-radius: 0px;
+    }
+    ::-webkit-scrollbar-track:hover {
+      background: #0f0f0f;
+    }
+    ::-webkit-scrollbar-track:active {
+      background: #0f0f0f;
+    }
+    ::-webkit-scrollbar-corner {
+      background: transparent;
+    }
+  }
+  @media screen and (max-width: 550px) {
+    .content {
+      padding: 20px 20px 0;
+
+      .header {
+        padding-bottom: 15px;
+        margin-bottom: 15px;
+      }
+    }
+  }
+}

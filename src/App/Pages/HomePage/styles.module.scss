@@ -1,0 +1,55 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  .cardsWrapper {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 150px;
+
+    .rightCards {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+  }
+
+  .frontAcademy {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+  }
+
+  @media screen and (max-width: 990px) {
+    .cardsWrapper {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: 20px;
+      margin-top: 150px;
+    }
+    .rightCards {
+      gap: 20px;
+    }
+    .frontAcademy {
+      flex-direction: column;
+      padding-bottom: 25px;
+    }
+  }
+
+  @media screen and (max-width: 550px) {
+    .cardsWrapper {
+      display: flex;
+      justify-content: center;
+      margin-top: 100px;
+
+      .rightCards {
+        display: flex;
+        flex-direction: column;
+      }
+    }
+  }
+}
