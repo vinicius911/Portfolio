@@ -23,6 +23,11 @@ export default function CardCertificates() {
               course="STARTER PACK"
               company="Front Academy, 2022"
             />
+            <CertificateItem
+              image="images/alura.jpg"
+              course="Front-End"
+              company="Alura, 2021"
+            />
           </Box>
         </Box>
       </Card>
