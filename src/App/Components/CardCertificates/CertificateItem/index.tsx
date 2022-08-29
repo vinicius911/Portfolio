@@ -26,7 +26,7 @@ export default function CertificateItem({
         </Heading>
 
         <Text>{company}</Text>
-        <Text size={12}>Autentificação: {autentification}</Text>
+        <Text size={12}> {autentification}</Text>
       </Box>
     </Box>
   );

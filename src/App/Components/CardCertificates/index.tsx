@@ -22,7 +22,6 @@ export default function CardCertificates() {
               image="images/astronauta.png"
               course="STARTER PACK"
               company="Front Academy, 2022"
-              autentification="#00000000000"
             />
           </Box>
         </Box>
