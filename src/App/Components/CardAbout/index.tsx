@@ -25,13 +25,13 @@ export default function CardAbout() {
       <Card>
         <Box className={styles.cardContent}>
           <Box className={styles.textsWrapper}>
-            <Heading size={isMobile ? 36 : 44}>Flavio Daniel Girotto</Heading>
+            <Heading size={isMobile ? 36 : 44}>Vinicius Moslaves</Heading>
             <Heading weight={400} size={isMobile ? 20 : 28} color="#5DB9FA">
               Desenvolvedor Front-end
             </Heading>
             <Box className={styles.textAbout}>
               <Text size={isMobile ? 16 : 18}>
-                Desenvolvedor front-end com mais de 2 anos de experiência com
+                Desenvolvedor front-end com mais de 1 ano de experiência com
                 desenvolvimento web e mobile, apaixonado por desafios e novas
                 tecnologias.
                 <br />
@@ -47,19 +47,19 @@ export default function CardAbout() {
               </Text>
             </a>
 
-            <Link href="mailto:flaviodanielgs@gmail.com">
+            <Link href="mailto:vinicius.moslaves09@gmail.com">
               <a>
                 <EmailIcon color="secondary" />
                 <Text size={isMobile ? 16 : 18} color="#ACACAC">
-                  flaviodanielgs@gmail.com
+                  vinicius.moslaves09@gmail.com
                 </Text>
               </a>
             </Link>
-            <Link href="tel:+5561999247830">
+            <Link href="tel:+5561982262002">
               <a>
                 <PhoneInTalkOutlinedIcon color="secondary" />
                 <Text size={isMobile ? 16 : 18} color="#ACACAC">
-                  +55 61 99924-7830
+                  +55 61 98226-2002
                 </Text>
               </a>
             </Link>
@@ -67,7 +67,7 @@ export default function CardAbout() {
 
           <Box className={styles.linksWrapper}>
             <IconButton
-              href="https://gitlab.com/flaviodanielgs"
+              href="https://gitlab.com/vinicius.moslaves"
               classes={{
                 root: styles.iconButtonRoot,
               }}
@@ -77,21 +77,21 @@ export default function CardAbout() {
               <Github size={isMobile ? 25 : 30} />
             </IconButton>
             <IconButton
-              href="https://www.linkedin.com/in/flaviodaniel/"
+              href="https://www.linkedin.com/in/vinicius-moslaves-b99a38220/"
               classes={{ root: styles.iconButtonRoot }}
               aria-label="linkedin"
             >
               <Linkedin size={isMobile ? 25 : 30} />
             </IconButton>
             <IconButton
-              href="mailto:flaviodanielgs@gmail.com"
+              href="mailto:vinicius.moslaves09@gmail.com"
               classes={{ root: styles.iconButtonRoot }}
               aria-label="gmail"
             >
               <Gmail size={isMobile ? 25 : 30} />
             </IconButton>
             <IconButton
-              href="/flavio-curriculo.pdf"
+              href="/Curriculo_ViniciusMoslaves.pdf"
               classes={{ root: styles.iconButtonRoot }}
               aria-label="curriculo"
             >

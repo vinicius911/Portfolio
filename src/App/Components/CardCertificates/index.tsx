@@ -24,12 +24,6 @@ export default function CardCertificates() {
               company="Front Academy, 2022"
               autentification="#00000000000"
             />
-            <CertificateItem
-              image="images/udemy.png"
-              course="REACT + REDUX"
-              company="Udemy - 2021"
-              autentification="UC-314c8910-a6ed-4729-8837-da04c8a2867f"
-            />
           </Box>
         </Box>
       </Card>
