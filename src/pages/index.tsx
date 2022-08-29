@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Portfólio | Flavio Daniel</title>
+        <title>Portfólio | Vinicius Moslaves</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
